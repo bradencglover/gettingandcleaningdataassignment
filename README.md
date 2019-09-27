@@ -1,2 +1,1 @@
-# gettingandcleaningdataassignment
-Coursera JHU Data Science Certificate Getting and Cleaning Data Course Project
+# Coursera JHU Data Science Certificate Getting and Cleaning Data Course Project
