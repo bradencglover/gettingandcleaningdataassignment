@@ -55,6 +55,6 @@ tidy <- merge(tidy, labels,by.x="active",by.y="number",sort=FALSE)
 tidy$activ <- NULL
 
 #melt tidy data set together and write it out to a csv
-tidymelt <- melt(tidy,id=c("subject","activity"))
-tidymeltcast <- dcast(tidymelt,subject + activity~variable,mean)
-write.csv(tidymeltcast,file="tidy.csv",row.names=FALSE)
+tidymelt <- melt(tidy, id=c("subject","activity"))
+tidymc <- dcast(tidym, subject + activity~variable,mean)
+write.csv(tidymc,file="tidy.csv",row.names=FALSE)
